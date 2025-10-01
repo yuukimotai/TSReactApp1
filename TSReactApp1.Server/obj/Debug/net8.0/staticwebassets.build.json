@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "M6fARi7b1X7vmjorCyiAd7Z7mCv4JtEIU63b4i9XVbM=",
+  "Source": "TSReactApp1.Server",
+  "BasePath": "_content/TSReactApp1.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\yuuss\\source\\repos\\TSReactApp1\\tsreactapp1.client\\tsreactapp1.client.esproj",
+      "Version": 2,
+      "Source": "tsreactapp1.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
