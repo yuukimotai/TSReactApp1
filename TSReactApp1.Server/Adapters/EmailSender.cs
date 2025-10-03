@@ -32,7 +32,7 @@ public class EmailSender : IEmailSender
     public async Task Execute(string apiKey, string subject, string text, string toEmail)
     {
         var message = new MimeKit.MimeMessage();
-        var from = "pdi.neurodive.akb147@gmail.com";
+        var from = "";
         // 宛先を追加  
         message.From.Add(new MimeKit.MailboxAddress("<宛先>", from));
 
@@ -63,7 +63,7 @@ public class EmailSender : IEmailSender
                 Debug.WriteLine("接続完了");
 
                 // SMTPサーバ認証  
-                await client.AuthenticateAsync(from, "ykzyulclkuedorjq");
+                await client.AuthenticateAsync(from, "");
 
                 // 送信  
                 await client.SendAsync(message);
